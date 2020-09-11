@@ -1,0 +1,232 @@
+body{
+    margin: 0;
+   
+}
+header{
+      
+    position: sticky;
+    top: 0;
+}
+.bar-navigation{
+    background-color: white;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Lato', sans-serif;
+    border-bottom: solid #2EBD59 5px;
+    
+  
+}
+
+.menu a{
+    text-decoration: NONE;
+    color: #1ed760;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+
+
+.menu{
+display: flex;
+list-style-type: none;
+
+}
+
+li{
+    margin: 0;
+ margin-top: -21px;
+margin-right: -5px;
+   padding-top: 42px;
+padding-left: 20px;
+    height: 100%;
+    
+}
+
+li:hover{
+    background-color: #e2fdeb;
+    
+}
+
+
+.bar-navigation img{
+    width: 250px;
+    margin-left: 14px   ;
+
+}
+
+.intro{
+    background-size: cover;
+    background-image: url(fondos/Comp-1_00000.png);
+    width: 100%;
+    height: 870px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.intro article{
+   
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    margin-right: 80px;
+
+}
+
+.informacion{
+    width: 100%;
+    background-size: cover;
+    height: 870px;
+    display: flex;
+  flex-direction: column;
+   align-items: center;
+    background-image: url(fondos/Comp-2_00000.png);
+text-align: center;
+justify-content: space-between;
+}
+
+#informacion{
+    background-color: rgba(255, 255, 255, 0);
+    width: 100%;
+    height: 100px;
+    margin-top: -100px;
+}
+
+.subtitulo1 h2{
+    font-family: 'Lato', sans-serif;
+    font-size: 61px;
+    color: white;
+
+}
+
+.linea{
+    margin-top: -200px;
+}
+
+
+.text1 {
+   margin-top: -100px;
+    font-family: 'Lato', sans-serif;
+    font-size: 36px;
+    color: white;
+}
+
+.logo1 img{
+    width: 200px;
+  
+
+    
+}
+ .logo1{
+     width: 100%;
+     display: flex;
+     justify-content: flex-end;
+ }
+
+ .contenido{
+    width: 100%;
+    background-size: cover;
+    height: 2000px;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    text-align: center;
+    background-image: url(fondos/fondo-contenido.png);
+
+ }
+
+.gif{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+.piezas{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+}
+.piezas img{
+    
+}
+
+ #contenido{
+    background-color: rgba(255, 255, 255, 0);
+    width: 100%;
+    height: 100px;
+    margin-top: -100px;
+}
+
+.nosotros{
+    width: 100%;
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    background-image: url(fondos/fondo-nosotros.png);
+
+ }
+ .bar-nosotros{
+    width: 99%;
+    height: 100px;
+    background-color: white;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: solid #2EBD59 5px;
+    border-top: solid #2EBD59 5px;
+    border-left: solid rgba(255, 255, 255, 0) 5px;
+    border-right: solid rgba(255, 255, 255, 0) 5px;
+    font-family: 'Lato', sans-serif;
+    color: #1ed760;
+    font-size: 20px;
+}
+
+.redes{
+   display: flex;
+   
+}
+
+.redes-logo{
+    margin: 20px;
+    
+    
+}
+
+.redes-logo:hover{
+    background-color:  rgba(255, 255, 255, 0.3);
+   border-radius: 15px;
+   
+}
+
+
+.redes-logo img{
+ width: 200px;
+
+
+}
+
+.bar-end{
+    width: 99%;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: solid #2EBD59 5px;
+    border-top: solid #2EBD59 5px;
+    border-left: solid rgba(255, 255, 255, 0) 5px;
+    border-right: solid rgba(255, 255, 255, 0) 5px;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 20px;
+}
